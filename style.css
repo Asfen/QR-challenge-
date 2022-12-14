@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    place-items: center;
+
+}
+
+main {
+    border-radius: 1em;
+    background-color: hsl(0, 0%, 100%);
+    width: 45%;
+    padding: 1em;
+    height: fit-content;
+
+}
+
+
+img {
+    border-radius: 1em;
+    width: 100%
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin: 1em;
+    opacity: 0.55;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 0.6em;
+}
+
+footer {
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 600px) {
+    section {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    section {
+        width: 20%;
+    }
+
+}
