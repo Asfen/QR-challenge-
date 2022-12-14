@@ -1,13 +1,16 @@
 * {
     margin: 0;
-    padding: 0;
+    
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
     place-items: center;
+
 
 }
 
@@ -16,7 +19,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     width: 45%;
     padding: 1em;
-    height: fit-content;
+    
 
 }
 
@@ -37,9 +40,9 @@ p {
 
 h1 {
     font-weight: 700;
-    font-size: 18px;
     text-align: center;
     margin: 0.6em;
+    font-size: 18px;
 }
 
 footer {
@@ -48,14 +51,14 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-    section {
+    main {
         width: 30%;
     }
 
 }
 
 @media only screen and (min-width: 1000px) {
-    section {
+    main {
         width: 20%;
     }
 
