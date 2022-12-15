@@ -17,7 +17,8 @@ body {
 main {    
     border-radius: 1em;
     background-color: hsl(0, 0%, 100%);
-    width: 45%;
+    width: 80%;
+    max-width: 300px;
     padding: 1em;
     margin-top: auto;
     margin-bottom: auto;
@@ -49,19 +50,5 @@ h1 {
 
 footer {
     text-align: center;
-
-}
-
-@media only screen and (min-width: 600px) {
-    main {
-        width: 30%;
-    }
-
-}
-
-@media only screen and (min-width: 1000px) {
-    main {
-        width: 20%;
-    }
 
 }
